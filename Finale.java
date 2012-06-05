@@ -30,7 +30,7 @@ public class Finale {
 			switch(s) {
 			case "Earthquake":
 	          Earthquake quake = new Earthquake();
-	          quake.equals(null);
+	          quake.equals(quake);
 	          break;
 			case "Body Mass Index":
 				BodyMassIndex bmi = new BodyMassIndex();
@@ -54,7 +54,7 @@ public class Finale {
 	        	FinaleMenu();
 	          break;	
 			}
-			// Use this to loop and go back to Drop down Menu
+			// Use this to loop and go back to Drop down Menu, Recursion technique
 			FinaleMenu();
 		  }
 	  } 
